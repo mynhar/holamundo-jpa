@@ -10,7 +10,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <glassfish.embedded-static-shell.jar>
-            C:\JAVA\glassfish4\glassfish\lib\embedded\glassfish-embedded-static-shell.jar
+            /home/harold/GlassFish_Server/glassfish/lib/embedded/glassfish-embedded-static-shell.jar
         </glassfish.embedded-static-shell.jar>
     </properties>
     <dependencies>
@@ -40,7 +40,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.41</version>
+            <version>8.0.21</version>
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
@@ -52,5 +52,5 @@
             <artifactId>log4j-core</artifactId>
             <version>2.8.2</version>
         </dependency>
-    </dependencies>
+    </dependencies>    
 </project>
